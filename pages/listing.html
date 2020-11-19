@@ -13,35 +13,51 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <a class="navbar-brand" href="#">TIN</a>
-
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="../index.html">Home 🏠</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="listing.html">List 💭</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact 📞</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
   <div class="container p-5">
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="#">TIN</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="../index.html">Home 🏠</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="listing.html">List 💭</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact 📞</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <h1 class="display-3">Groups</h1>
     <div class="list-group mt-5 shadow-sm p-3 mb-5 bg-white rounded">
-      <a href="#" class="list-group-item list-group-item-action">Niderlandzki ster ⚓
+      <a href="#collapse1" data-toggle="collapse" class="list-group-item list-group-item-action">Niderlandzki ster ⚓
         <span class="badge badge-success">3 Online</span>
+
       </a>
+      <div id="collapse1" class="panel-collapse collapse list-group-item">
+        <ul>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <li>123</li>
+          <button class="btn btn-primary">xxx</button>
+        </ul>
+      </div>
       <a href="#" class="list-group-item list-group-item-action">dotnet folks 🖥
         <span class="badge badge-success">12 Online</span>
       </a>
@@ -49,6 +65,7 @@
         <span class="badge badge-success">41 Online</span>
       </a>
     </div>
+
   </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
