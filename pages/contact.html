@@ -14,33 +14,82 @@
 
 <body>
   <div class="container p-5">
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light justify-content-between">
       <a class="navbar-brand" href="#">TIN</a>
 
-      <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse container-fluid" id="collapsibleNavbar">
+        <ul class="nav navbar-nav">
           <li class="nav-item">
-            <a class="nav-link " href="../index.html">Home 🏠</a>
+            <a class="nav-link active" href="../index.html">Home 🏠</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="listing.html">List 💭</a>
           </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact 📞</a>
+            <a class="nav-link" href="contact.html">Contact 📞</a>
           </li>
         </ul>
       </div>
+
+
     </nav>
     <h1 class="display-3">Contact</h1>
-    <img class="img-fluid rounded mx-auto d-block shadow-sm p-3 mb-5 bg-white rounded"
-      src="https://cdn.lowgif.com/full/fae07dbced40b7b9-carly-rae-jepsen-call-me-maybe-quote-about-maybe-love-gifs-call.gif"
-      alt="">
+    <div class="container row">
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Phone</span>
+            <span>321-321-321</span>
+          </li>
+          <li class="list-group-item" style="display: flex; justify-content: space-between;">
+            <span>Instagram</span>
+            <span>321-321-321</span>
+          </li>
+          <li class="list-group-item" style="display: flex; justify-content: space-between;">
+            <span>WhatsApp</span>
+            <span>321-321-321</span>
+          </li>
+          <li class="list-group-item" style="display: flex; justify-content: space-between;">
+            <span>Telefon</span>
+            <span>321-321-321</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+              href="https://www.whatismyip-address.com">ip</a></div>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 200px;
+            }
+
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 600px;
+            }
+          </style>
+        </div>
+      </div>
+    </div>
+    <footer style="text-align: center;" class="border border-bottom-0 border-right-0 border-left-0 border-top-1">
+      <p>mõ</p>
+    </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
