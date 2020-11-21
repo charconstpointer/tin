@@ -22,3 +22,21 @@ body {
 .menu li:hover {
     background: rgba(126, 56, 122, 0.034);
 }
+
+/* 
+.user-info {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.user-info img {
+    max-height: 6em;
+    max-width: 6em;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
