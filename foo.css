@@ -14,3 +14,11 @@ body {
     scrollbar-width: none;
     /* Firefox */
 }
+
+.menu li:not(:first-child) {
+    border-left: 2px solid rgba(126, 56, 122, 0.425);
+}
+
+.menu li:hover {
+    background: rgba(126, 56, 122, 0.034);
+}

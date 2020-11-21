@@ -15,31 +15,28 @@
 
 <body>
   <div class="container p-5">
-
-    <nav class="navbar navbar-expand-sm navbar-light justify-content-between">
-      <img src="../img/logo_transparent.png" alt="" style="max-width: 5em;" class="img-fluid">
-
-      <div class="collapse navbar-collapse container-fluid" id="collapsibleNavbar">
-        <ul class="nav navbar-nav">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img src="../img/logo_transparent.png" alt="" style="max-width: 4em;" class="img-fluid">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav menu">
           <li class="nav-item">
-            <a class="nav-link " href="../index.html">Home 🏠</a>
+            <a class="nav-link active" href="../index.html">Home 🏠</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="listing.html">Groups 💭</a>
-          </li>
-
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="register.html">Login 👩‍🦱</a>
+            <a class="nav-link" href="../pages/listing.html">Groups 💭</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact 📞</a>
+            <a class="nav-link" href="../pages/register.html">Login 👩‍🦱</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contact.html">Contact 📞</a>
           </li>
         </ul>
       </div>
-
-
     </nav>
     <h1 class="display-3 pb-5 pt-5">r/AyyMD</h1>
     <div class="modal fade" id="addPost" tabindex="-1" role="dialog" aria-labelledby="addPostLabel" aria-hidden="true">
@@ -129,8 +126,8 @@
               class="img-fluid rounded rounded mx-auto d-block shadow-sm  mb-3 bg-white rounded">
             <p>Posted at : 2020-12-12 17:23</p>
           </div>
-          <a href="#collapse2" data-toggle="collapse" class="btn btn-primary btn-block">Comment</a>
-          <div id="collapse2" class="input-group mt-3 panel-collapse collapse">
+          <a href="#collapse3" data-toggle="collapse" class="btn btn-primary btn-block">Comment</a>
+          <div id="collapse3" class="input-group mt-3 panel-collapse collapse">
             <input type="text" class="form-control" placeholder="Your comment" aria-label="Your comment"
               aria-describedby="basic-addon2">
             <div class="input-group-append">
