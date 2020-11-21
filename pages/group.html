@@ -42,12 +42,11 @@
 
     </nav>
     <h1 class="display-3 pb-5 pt-2">r/AyyMD</h1>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
+    <div class="modal fade" id="addPost" tabindex="-1" role="dialog" aria-labelledby="addPostLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Add new post</h5>
+            <h5 class="modal-title" id="addPostLabel">Add new post</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -59,6 +58,12 @@
               </div>
               <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
+            <div class="input-group mt-1">
+              <div class="input-group-prepend">
+                <span class="input-group-text">🖼</span>
+              </div>
+              <input class="form-control" aria-label="With textarea"></input>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -68,7 +73,7 @@
       </div>
     </div>
     <div class="posts">
-      <div class="add mb-5" data-toggle="modal" data-target="#exampleModal">
+      <div class="add mb-5" data-toggle="modal" data-target="#addPost">
         <a href="#" class="btn btn-primary btn-block">Add new post 🖋</a>
       </div>
       <ul class="list-group list-group-flush">
@@ -136,7 +141,7 @@
       </ul>
     </div>
     <footer style="text-align: center;" class="border border-bottom-0 border-right-0 border-left-0 border-top-1">
-      <p>mõ</p>
+      <p>Michal Olszewski s18080</p>
     </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
